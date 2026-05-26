@@ -1,49 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<title>I.E. Juan Pablo II</title>
-<style>
-body { font-family: Arial; margin: 0; }
-header { background: #0d47a1; color: white; padding: 20px; text-align: center; }
-nav { background: #1976d2; padding: 10px; text-align: center; }
-nav a { color: white; margin: 10px; text-decoration: none; font-weight: bold; }
-section { padding: 20px; }
-footer { background: #0d47a1; color: white; text-align: center; padding: 10px; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I.E. Su Santidad Juan Pablo II</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
-
 <body>
 
 <header>
-<h1>I.E. Su Santidad Juan Pablo II</h1>
-<p>Formando estudiantes con valores y excelencia</p>
+    <div class="logo">
+        <h1>I.E. Juan Pablo II</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Niveles</a></li>
+            <li><a href="#">Comunidad</a></li>
+            <li><a href="#">Zona Tecnológica</a></li>
+            <li><a href="#">Noticias</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
 </header>
 
-<nav>
-<a href="#">Inicio</a>
-<a href="#">Nosotros</a>
-<a href="#">Niveles</a>
-<a href="#">Docentes</a>
-<a href="#">Contacto</a>
-</nav>
-
-<section>
-<h2>Bienvenidos</h2>
-<p>Somos una institución educativa comprometida con la formación integral de nuestros estudiantes.</p>
+<section class="hero">
+    <div class="hero-text">
+        <h2>Bienvenidos a nuestra institución educativa</h2>
+        <p>Formando estudiantes con valores, innovación y excelencia académica.</p>
+        <a href="#" class="btn">Conocer más</a>
+    </div>
 </section>
 
-<section>
-<h2>Niveles Educativos</h2>
-<ul>
-<li>Inicial</li>
-<li>Primaria</li>
-<li>Secundaria</li>
-</ul>
+<section class="niveles">
+    <h2>Niveles Educativos</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Primaria</h3>
+            <p>Educación integral desde los primeros años.</p>
+        </div>
+        <div class="card">
+            <h3>Secundaria</h3>
+            <p>Preparación académica para el futuro.</p>
+        </div>
+        <div class="card">
+            <h3>CEBA</h3>
+            <p>Educación básica alternativa para jóvenes y adultos.</p>
+        </div>
+    </div>
+</section>
+
+<section class="tecnologia">
+    <h2>Zona Tecnológica</h2>
+    <p>Explora tutoriales, software educativo y recursos digitales del Aula de Innovación.</p>
 </section>
 
 <footer>
-<p>© 2026 I.E. Juan Pablo II - Perú</p>
+    <p>© 2026 I.E. Juan Pablo II - Todos los derechos reservados</p>
 </footer>
 
 </body>
