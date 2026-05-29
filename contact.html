@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Colegio Excelencia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+    <nav class="bg-blue-900 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Colegio Excelencia</h1>
+            <ul class="hidden md:flex space-x-6">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Nosotros</a></li>
+                <li><a href="academics.html">Académico</a></li>
+                <li><a href="gallery.html">Galería</a></li>
+                <li><a href="contact.html" class="text-yellow-400">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="py-16 container mx-auto px-4 max-w-2xl">
+        <h2 class="text-4xl font-bold text-blue-900 mb-8 text-center">Contáctanos</h2>
+        <form class="bg-white p-8 rounded-lg shadow-md space-y-4" id="contact-form">
+            <div>
+                <label class="block text-gray-700">Nombre Completo</label>
+                <input type="text" class="w-full border p-2 rounded" required>
+            </div>
+            <div>
+                <label class="block text-gray-700">Email</label>
+                <input type="email" class="w-full border p-2 rounded" required>
+            </div>
+            <div>
+                <label class="block text-gray-700">Mensaje</label>
+                <textarea class="w-full border p-2 rounded h-32"></textarea>
+            </div>
+            <button type="submit" class="w-full bg-blue-900 text-white py-3 rounded font-bold">Enviar Mensaje</button>
+        </form>
+    </section>
+    <script src="js/form-handler.js"></script>
+</body>
+</html>
